@@ -27,9 +27,10 @@
   * Round Floats (Z)
   
   * New Table: (P)
-	  * Strip Date From Sales Table: Year Only
-		  * Index (GB) Year
-		  * Total Sales
+	  * Strip Date From Sales Table:
+		  * Index (Group By) Date
+		  
+		  * Total Weekly Sales: Across all stores and depts
       
   * Rename Columns: (Z)
 		* MarkDown1 ---> Mark_Down_1
@@ -40,7 +41,6 @@
 		  * Dept #
 		  * Date
 		  * Weekly Sales
-      		  * IsHoliday
 	
 	  * From Features Table:
 		  * Markdowns
