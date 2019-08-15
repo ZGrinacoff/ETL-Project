@@ -40,7 +40,7 @@
 		  * Dept #
 		  * Date
 		  * Weekly Sales
-      * IsHoliday
+      		  * IsHoliday
 	
 	  * From Features Table:
 		  * Markdowns
