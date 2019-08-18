@@ -1,6 +1,6 @@
 # ETL-Project Documentation:
 
-## Resources:
+## Resources (Folder):
   
   * Retail Data Analytics: https://www.kaggle.com/manjeetsingh/retaildataset
        
@@ -9,41 +9,22 @@
        * Sales Data Set ---> sales data-set.csv
        * Stores Data Set ---> stores data-set.csv
       
-## MongoDB ETL:
+## MongoDB ETL - Non-Relational (Folder):
 
   * MongoDB ETL Technical Summary Write-Up ---> Walmart MongoDB ETL Doc.docx
   
   * MongoDB ETL Jupyter Notebook ---> weeklysales_markdown_mongodb.ipynb
       
-## Transformation:
+## PostgreSQL ETL - Relational (Folder):
 
-  * Markdown Field: Convert NaN to zero value (P)
+  * PostgreSQL Technical Summary Write-Up ---> Walmart_PostgreSQL_ETL_Doc.docx
 
-  * Reformat Dates (Z - PostgreSQL Only) ---> yyyy/mm/dd
+  * PostgreSQL ETL Jupyter Notebook ---> postgresql_etl.ipynb
   
-  * Round Floats (Z)
-  
-  * New Table: (P)
-	  * Strip Date From Sales Table:
-		  * Index (Group By) Date
+  * PostgreSQL Schema (Folder):
+
+	  * PostgreSQL retail_db Schema ---> QuickDBD-retail_db.sql
 		  
-		  * Total Weekly Sales: Across all stores and depts
-      
-  * Rename Columns: (Z)
-		* MarkDown1 ---> Mark_Down_1
-    
-  * New Table: Join: On Store # (P)
-	  * From Sales Table:
-		  * Store #
-		  * Dept #
-		  * Date
-		  * Weekly Sales
-	
-	  * From Features Table:
-		  * Markdowns
-
-## Load:
-
-    * Non-Relational MongoDB
-    
-    * Relational PostgreSQL
+	  * PostgreSQL retail_db Schema Image ---> retail_db_schema.png
+	  
+	  * PostgreSQL retail_db Total Weekly Sales w/ Join ---> sql_queries.sql
