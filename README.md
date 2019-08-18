@@ -4,19 +4,16 @@
   
   * Retail Data Analytics: https://www.kaggle.com/manjeetsingh/retaildataset
        
-       *  dd
-
-## DB's used:
-
-  * Non-Relational MongoDB for custom tables
-
-  * Relational QuickDB Schema w/ Diagram for PostgreSQL: original csvs + holidays. 
-  
-  	* Explain why holidays table was created. Used to reference which holiday it happened to be for given date.
+       * Features Data Set ---> Features data set.csv
+       * Holidays Data Set ---> holidays.csv
+       * Sales Data Set ---> sales data-set.csv
+       * Stores Data Set ---> stores data-set.csv
       
-## Extraction:
+## MongoDB ETL:
 
-  * CSV to DF for original tables + holidays table. 
+  * MongoDB ETL Technical Summary Write-Up ---> Walmart MongoDB ETL Doc.docx
+  
+  * MongoDB ETL Jupyter Notebook ---> weeklysales_markdown_mongodb.ipynb
       
 ## Transformation:
 
