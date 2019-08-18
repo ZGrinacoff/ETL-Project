@@ -21,7 +21,7 @@
 
   * PostgreSQL ETL Jupyter Notebook ---> postgresql_etl.ipynb
   
-  * PostgreSQL Schema (Folder):
+  * __PostgreSQL Schema (Folder)__:
 
 	  * PostgreSQL retail_db Schema ---> QuickDBD-retail_db.sql
 		  
