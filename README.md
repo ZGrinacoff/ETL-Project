@@ -1,10 +1,10 @@
-# ETL-Project
+# ETL-Project Documentation:
 
-## Data Sources:
-
-  * Walmart Recruiting - Store Sales Forecasting: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data
+## Resources:
   
   * Retail Data Analytics: https://www.kaggle.com/manjeetsingh/retaildataset
+       
+       *  dd
 
 ## DB's used:
 
@@ -12,7 +12,7 @@
 
   * Relational QuickDB Schema w/ Diagram for PostgreSQL: original csvs + holidays. 
   
-      * Explain why holidays table was created. Used to reference which holiday it happened to be for given date.
+  	* Explain why holidays table was created. Used to reference which holiday it happened to be for given date.
       
 ## Extraction:
 
