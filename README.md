@@ -9,13 +9,13 @@
        * Sales Data Set ---> sales data-set.csv
        * Stores Data Set ---> stores data-set.csv
       
-## MongoDB ETL - Non-Relational (Folder):
+## MongoDB ETL (Non-Relational Folder):
 
   * MongoDB ETL Technical Summary Write-Up ---> Walmart MongoDB ETL Doc.docx
   
   * MongoDB ETL Jupyter Notebook ---> weeklysales_markdown_mongodb.ipynb
       
-## PostgreSQL ETL - Relational (Folder):
+## PostgreSQL ETL (Relational Folder):
 
   * PostgreSQL Technical Summary Write-Up ---> Walmart_PostgreSQL_ETL_Doc.docx
 
